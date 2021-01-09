@@ -33,4 +33,11 @@
   .post_image{
     margin-bottom: 15px;
     border-radius: 10px;
+}
+  ul{
+    list-style-type: circle;
+    padding: 0;
+  }
+  ul li a{
+    text-transform: lowercase;
   }
