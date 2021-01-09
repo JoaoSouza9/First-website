@@ -1,5 +1,6 @@
   body{
     background-color: #FFF;
+    font-family: Verdana;
 }
 
   .subtitle, .post_title, .post_number{
@@ -11,8 +12,12 @@
     font-style: oblique;
     margin: 0px;
     margin-bottom: 15px;
+    text-transform: uppercase;
 }
-
+  a{
+    text-decoration: underline;
+    color: green;
+  }
   .Post{
     background-color: #FFF;
     padding: 15px;
@@ -23,10 +28,9 @@
   .post_content{
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
   .post_image{
     margin-bottom: 15px;
     border-radius: 10px;
   }
-  Alterações nas margens dos elementos para 15px, a imagem colocada como background
-  do site agora irá compor o header, ela teve seu tamanho alterado para melhor visualização
